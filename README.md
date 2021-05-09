@@ -4,7 +4,7 @@ Esta pequeña aplicación web permite simular el lanzamiento de 1 o mas dados co
 
 ## Como Correrlo?
 
-Simplemente descarga el repositorio y ejecuta el archivo dado.html o accede en la web a
+Simplemente descarga el repositorio y ejecuta el archivo dado.html o accede en la web a [https://edw10.github.io/Lanzamiento-Dado/](https://edw10.github.io/Lanzamiento-Dado/)
 
 ## Uso
 
