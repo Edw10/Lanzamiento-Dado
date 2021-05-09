@@ -12,11 +12,25 @@ button {
   width: 200px;
   cursor: pointer;
 }
-#placeholder {
+#dados {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  height: auto;
+}
+
+.dado {
+  display: inline-block;
+  width: 220px;
+  margin: auto auto;
+
+}
+p {
   height: 100px;
   width: 100px;
+  display: block;
   padding: 50px;
-  margin: 50px auto;
+  margin: 10px auto;
   border: 1px solid gray;
   border-radius: 10px;  
   font-size:80px;
@@ -26,7 +40,7 @@ input {
   display:block;
   border:none;
   border-bottom:1px solid #ccc;
-  width:10%;
+  width:50%;
   margin-left: auto;
   margin-right: auto;
 }
