@@ -1,7 +1,13 @@
 var dice = {
-  sides: 6,
+  sides: function() {
+    var si = document.getElementById('side').value;
+    if (si == ""){
+      si = 6;
+    }
+    return si;
+  },
   roll: function () {
-    var randomNumber = Math.floor(Math.random() * this.sides) + 1;
+    var randomNumber = Math.floor(Math.random() * this.sides()) + 1;
     return randomNumber;
   }
 }
