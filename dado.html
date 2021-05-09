@@ -1,16 +1,24 @@
 <html>
 <head>
-    <title>Lanzamiento Dado</title>
+    <title>Lanzamiento de Dado</title>
     <link rel="stylesheet" href="style.css">
 </head>  
 <body>
-  <p id="placeholder">
-  </p>
-  <p>
-    <label for="side"><b>N° Caras</b></label>
-    <input type="text" id="side"></input>
-    </p>
-  <button id="button">Lanzar Dados</button>
+  <div id="dados">
+    <div class="dado">
+      <p id="placeholder1">
+      </p>
+      <form>
+        <label for="side1"><b>N° Caras</b></label>
+        <input type="text" id="side1"></input> 
+      </form>  
+    </div> 
+  </div>
+  <div>
+    <button id="button1">Agregar Dado</button>
+    <button id="button">Lanzar Dados</button>
+    <button id="button2">Eliminar Dado</button>
+  </div>
   <script src="dice.js"></script>
 </body>
 </html>
